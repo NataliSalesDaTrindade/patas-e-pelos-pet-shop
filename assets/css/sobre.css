@@ -36,14 +36,6 @@ h2 {
     color: var(--verde-secundario);
 }
 
-.bg-rosa {
-    background-color: var(--rosa-principal);
-}
-
-.bg-rosa:hover {
-    background-color: var(--rosa-secundario);
-}
-
 footer {
     width: 100%;
     margin-top: 40px;

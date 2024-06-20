@@ -38,7 +38,7 @@ a {
     line-height: 1.5;
 }
 
-a {
+.nav-link {
     background-color: var(--verde-principal);
     color: white;
     text-transform: uppercase;
@@ -47,6 +47,14 @@ a {
     font-weight: bold;
 }
 
-a:hover {
+.nav-link:hover {
     background-color: var(--verde-secundario);
+}
+
+.bg-rosa {
+    background-color: var(--rosa-principal);
+}
+
+.bg-rosa:hover {
+    background-color: rgb(254, 118, 100);
 }
