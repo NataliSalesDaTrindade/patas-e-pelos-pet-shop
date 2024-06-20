@@ -1,10 +1,13 @@
 body {
+    background-image: url("../img/background_sobre_mobile-04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 header {
@@ -49,18 +52,42 @@ h2 {
     font-weight: bold;
 }
 
+.metade {
+    width: 50%;
+}
+
 footer {
+    position: relative;
     width: 100%;
     margin-top: 40px;
     background-color: var(--rosa-principal);
-    padding: 16px calc(100% - 1280px / 2);
+    padding: 16px;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+.img-container {
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+footer p {
+    z-index: 1000;
+    width: 65%;
+}
+
+
 @media (min-width: 1280px) {
-    
+    footer {
+        padding: 16px calc((100% - 1280px) / 2);
+    }
+
+    .img-container {
+        width: 30%;
+    }
 }
