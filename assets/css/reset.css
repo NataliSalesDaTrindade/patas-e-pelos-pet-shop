@@ -28,3 +28,12 @@ img {
 a {
     color: inherit;
 }
+
+.titulo {
+    font-size: 1.375rem;
+}
+
+.texto-generico {
+    font-size: 1rem;
+    line-height: 1.5;
+}
