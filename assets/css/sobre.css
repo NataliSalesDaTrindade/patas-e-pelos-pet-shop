@@ -16,6 +16,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 }
 
 .navbar {
@@ -70,7 +71,7 @@ footer {
 }
 
 .img-container {
-    width: 50%;
+    max-width: 180px;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -79,6 +80,12 @@ footer {
 footer p {
     z-index: 1000;
     width: 65%;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    main {
+        width: 60%;
+    }
 }
 
 
