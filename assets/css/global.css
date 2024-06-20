@@ -48,10 +48,6 @@ a {
 }
 
 .nav-link:hover {
-    background-color: var(--verde-secundario);
-}
-
-.bg-rosa {
     background-color: var(--rosa-principal);
 }
 
