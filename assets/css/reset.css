@@ -37,3 +37,16 @@ a {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+a {
+    background-color: var(--verde-principal);
+    color: white;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: var(--verde-secundario);
+}

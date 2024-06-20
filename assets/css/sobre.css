@@ -19,15 +19,6 @@ header {
     gap: 1rem;
 }
 
-
-a {
-    background-color: var(--verde-principal);
-    color: white;
-    text-transform: uppercase;
-    padding: .5rem 1rem;
-    border-radius: 30px;
-}
-
 main {
     width: 90%;
     max-width: 1280px;
@@ -47,6 +38,10 @@ h2 {
 
 .bg-rosa {
     background-color: var(--rosa-principal);
+}
+
+.bg-rosa:hover {
+    background-color: var(--rosa-secundario);
 }
 
 footer {
