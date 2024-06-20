@@ -24,7 +24,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .logo-container {
@@ -83,6 +83,10 @@ footer p {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
+    .navbar {
+        gap: 1rem;
+    }
+
     main {
         width: 60%;
     }
@@ -104,6 +108,7 @@ footer p {
 @media (min-width: 1280px) {
     .navbar {
         justify-content: flex-end;
+        gap: 1.5rem;
     }
     
     section {
