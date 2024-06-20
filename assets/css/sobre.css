@@ -102,11 +102,19 @@ footer p {
 
 
 @media (min-width: 1280px) {
+    .navbar {
+        justify-content: flex-end;
+    }
+    
+    section {
+        width: 70%;
+    }
+
     footer {
         padding: 16px calc((100% - 1280px) / 2);
     }
 
     .img-container {
-        width: 30%;
+        max-width: 450px;
     }  
 }
