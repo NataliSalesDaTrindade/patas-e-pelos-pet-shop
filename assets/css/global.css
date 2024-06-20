@@ -50,7 +50,3 @@ a {
 .nav-link:hover {
     background-color: var(--rosa-principal);
 }
-
-.bg-rosa:hover {
-    background-color: rgb(254, 118, 100);
-}
