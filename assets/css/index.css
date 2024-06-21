@@ -9,6 +9,14 @@ header {
     margin-top: 22px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
 .navegacao {
     display: flex;
     justify-content: center;
@@ -96,31 +104,13 @@ header {
     padding-bottom: 10px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
+    width: 100%;
     background-color: var(--rosa-principal);
     padding: 16px;
-    color: #fff;
-    flex-direction: column;
-    gap: 16px
-}
-
-.footer ul {
+    color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    gap: 8px
-}
-
-@media (min-width: 768px) {
-    header {
-        padding: 16px;
-    }
-
-    .navegacao {
-        gap: 30px;
-    }
+    justify-content: space-between;
+    align-items: flex-start;
 }
