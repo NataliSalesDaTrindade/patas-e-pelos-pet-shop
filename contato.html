@@ -11,59 +11,106 @@
   <title>Contato - Patas e Pelos Pet Shop</title>
 </head>
 <body>
-    <header class="header flex">
-    <figure class="logo-container">
-      <img class="logo" src="assets/img/logo.png" alt="Logo">
-    </figure>
-        <nav>
+  <header>
+    <nav>
       <ul class="navbar">
-        <li><a href="index.html" class="nav-link">início</a></li>
-        <li><a href="sobre.html" class="nav-link">sobre nós</a></li>
-        <li><a href="contato.html" class="nav-link">contato</a></li>
+        <li><a class="nav-link" href="index.html">Início</a></li>
+        <li><a class="nav-link" href="sobre.html">Sobre nós</a></li>
+        <li><a class="nav-link" href="contato.html">Contato</a></li>
       </ul>
     </nav>
-    
+    <figure class="logo-container">
+      <img id="logo" src="assets/img/logo.png" alt="Logo">
+    </figure>
   </header>
+
   <main>
     <section>
-      <h1>Entre em contato com o Patas e pelos</h1>
+      <h1 class="rosa">Entre em contato com o Patas e pelos</h1>
       <p>Adoramos ouvir nossos clientes! Se você tem alguma dúvida,<br> sugestão ou deseja agendar um serviço, não hesite em entrar<br> em contato conosco. Estamos aqui para ajudar!</p>
     </section>
     <section>
-      <h2>Informações de Contato</h2>
+      <h2 class="verde">Informações de Contato</h2>
       <p>Endereço: Rua dos Amores, 123, Centro<br>
       Telefone: (11) 1234-5678<br>
       E-mail: contato@patasepelos.com<br>
       Horário de Funcionamento: Segunda a Sexta, das 9h às 19h;<br> Sábados, das 9h às 14h</p><br>
     </section>
-    <aside>
-      <h2>FORMULARIO DE CONTATO</h2>
-        <p>Por favor, preencha o formulário abaixo e entraremos em contato o mais breve possível.</p> <br> <br>
+    <h2 class="rosa">Formulário de Contato</h2>
+      <p>Por favor, preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+      <form>
+        <div class="campo-formulario">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="campo-formulario">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo-formulario">
+          <label for="tel">Telefone:</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="campo-formulario">
+          <label for="msg">Deixe sua mensagem aqui:</label>
+          <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <section>
+          <h2 class="verde">Queremos saber a sua opinão</h2>
+          <p class="rosa bold">Responda à nossa enquete para nos ajudar a melhorar nossos serviços.</p>
+          <div class="campo-formulario">
+            <article class="radios">
+              <p>Você já utilizou algum dos nossos serviços?</p>
+              <div class="radio">
+                <input type="radio" id="sim" name="servico" value="sim">
+                <label for="sim">Sim</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="nao" name="servico" value="nao">
+                <label for="nao">Não</label>
+              </div>
+            </article>
+            <hr>
+            <article>
+              <p>Como avalia a qualidade de nossos serviços?</p>
+              <div class="slider-container">
+                <input type="range" id="myRange" min="0" max="4" value="2">
+                <div class="slider-labels">
+                  <span>Ruim</span>
+                  <span>Regular</span>
+                  <span>Bom</span>
+                  <span>Ótimo</span>
+                  <span>Excelente</span>
+                </div>
+              </div>
+            </article>
+            <hr>
+            <article class="radios">
+              <p>Você recomendaria Patas e Pelos para um amigo?</p>
+              <div class="radio">
+                <input type="radio" id="sim" name="servico" value="sim">
+                <label for="sim">Sim</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="nao" name="servico" value="nao">
+                <label for="nao">Não</label>
+              </div>
+            </article>
+          </div>
+        </section>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
 
-        <label for="nome"> Nome </label>
-            <input type="text" id="nome" name="nome"
-            placeholder="Seu nome completo"> </input>
-
-        <label for="email"> E-mail </label>
-        <input type="email" id="email" name="email"
-        placeholder="seuemail@email.com"> </input>
-        
-        <label for="telefone"> Telefone </label>
-        <input type="number" id="telefone" name="Telefone"
-        placeholder="00 00000-0000"> </input> 
-
-        <label for="cMensagem">Mensagem:</label> 
-        <textarea id="cMensagem" name="mensagem" required></textarea>
-        
-        <button class="botao-enviar"> Enviar</button>
-    </aside>
+  </main>
 
     <footer>
       <p class="bold">Patas e Pelos Pet Shop</p>
       <p>Rua dos Amores, 123, Centro - HJ, 12345-000, Brasil</p>
       <p>©Todos os direitos reservados</p>
+      <figure class="img-container">
+        <img class="img" src="assets/img/cachorro-01.png" alt="">
+       </figure>
      </footer>
-  </main>
-
-</body>
+  </body>
 </html>
