@@ -4,19 +4,16 @@ body {
     background-size: cover;
 }
 
+header {
+    padding: 16px;
+}
+
 .navegacao {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
-}
-
-@media (min-width: 768px) {
-    .navegacao {
-        flex-direction: row;
-    }
+    flex-direction: column;
 }
 
 .banner {
