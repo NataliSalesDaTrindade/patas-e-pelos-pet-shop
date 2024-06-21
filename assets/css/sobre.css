@@ -40,6 +40,10 @@ h2 {
     margin-top: 16px;
 }
 
+section p {
+    margin-top: 6px;
+}
+
 .rosa {
     color: var(--rosa-principal);
 }
