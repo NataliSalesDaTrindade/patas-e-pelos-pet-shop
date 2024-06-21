@@ -70,7 +70,7 @@ body {
     background: linear-gradient(180deg, var(--rosa-principal), var(--rosa-secundario));
     color: white;
     font-weight: bold;
-    margin-top: 6px;
+    margin-top: 20px;
     border-radius: 4px;
     padding: 8px;
     width: 100%;
