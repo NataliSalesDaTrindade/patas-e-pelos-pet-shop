@@ -4,12 +4,16 @@ body {
     background-size: cover;
 }
 
+header {
+    padding: 16px;
+}
+
 .navegacao {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    flex-direction: column;
 }
 
 .banner {
