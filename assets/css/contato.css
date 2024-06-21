@@ -45,7 +45,11 @@ body {
   h2 {
     margin-top: 16px;
   }
-  
+
+  p {
+    margin: 6px 0px;
+  }
+
   .rosa {
     color: var(--rosa-principal);
   }
@@ -63,7 +67,7 @@ body {
     border-radius: 4px;
     padding: 8px;
     width: 100%;
-    margin-top: 6px;
+    margin: 6px 0px;
   }
   
   .btn {
