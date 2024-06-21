@@ -86,13 +86,13 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 5px;
+    gap: 32px;
   }
   
   .radio {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     margin-top: 10px;
   }
   
@@ -153,14 +153,6 @@ body {
         max-width: 300px;
     }
 
-    .radios {
-      gap: 40px;
-    }
-
-    .radio {
-      gap: 10px;
-    }
-
     footer {
         padding: 16px calc((100% - 768px) / 2);
     }
@@ -190,16 +182,6 @@ body {
     section {
         width: 70%;
     }
-
-    
-    .radios {
-      gap: 40px;
-    }
-
-    .radio {
-      gap: 10px;
-    }
-
 
     footer {
         padding: 16px calc((100% - 1280px) / 2);

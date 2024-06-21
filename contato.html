@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/contato.css">
   <title>Contato - Patas e Pelos Pet Shop</title>
 </head>
+
 <body>
   <header>
     <nav>
@@ -27,40 +29,43 @@
   <main>
     <section>
       <h1 class="rosa">Entre em contato com o Patas e pelos</h1>
-      <p>Adoramos ouvir nossos clientes! Se você tem alguma dúvida,<br> sugestão ou deseja agendar um serviço, não hesite em entrar<br> em contato conosco. Estamos aqui para ajudar!</p>
+      <p>Adoramos ouvir nossos clientes! Se você tem alguma dúvida,<br> sugestão ou deseja agendar um serviço, não
+        hesite em entrar<br> em contato conosco. Estamos aqui para ajudar!</p>
     </section>
     <section>
       <h2 class="verde">Informações de Contato</h2>
       <p>Endereço: Rua dos Amores, 123, Centro<br>
-      Telefone: (11) 1234-5678<br>
-      E-mail: contato@patasepelos.com<br>
-      Horário de Funcionamento: Segunda a Sexta, das 9h às 19h;<br> Sábados, das 9h às 14h</p><br>
+        Telefone: (11) 1234-5678<br>
+        E-mail: contato@patasepelos.com<br>
+        Horário de Funcionamento: Segunda a Sexta, das 9h às 19h;<br> Sábados, das 9h às 14h</p><br>
     </section>
     <h2 class="rosa">Formulário de Contato</h2>
-      <p>Por favor, preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
-      <form>
+    <p>Por favor, preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+    <form>
+      <div class="campo-formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="campo-formulario">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="campo-formulario">
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel">
+      </div>
+      <div class="campo-formulario">
+        <label for="msg">Deixe sua mensagem aqui:</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+      </div>
+      <section class="opiniao">
+        <h2 class="verde">Queremos saber a sua opinão</h2>
+        <p class="rosa bold">Responda à nossa enquete para nos ajudar a melhorar nossos serviços.</p>
         <div class="campo-formulario">
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
-        </div>
-        <div class="campo-formulario">
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="campo-formulario">
-          <label for="tel">Telefone:</label>
-          <input type="tel" id="tel" name="tel">
-        </div>
-        <div class="campo-formulario">
-          <label for="msg">Deixe sua mensagem aqui:</label>
-          <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-        </div>
-        <section class="opiniao">
-          <h2 class="verde">Queremos saber a sua opinão</h2>
-          <p class="rosa bold">Responda à nossa enquete para nos ajudar a melhorar nossos serviços.</p>
-          <div class="campo-formulario">
-            <article class="radios">
-              <p>Você já utilizou algum dos nossos serviços?</p>
+          <article>
+            <p>Você já utilizou algum dos nossos serviços?</p>
+            <div class="radios">
+
               <div class="radio">
                 <input type="radio" id="sim" name="servico" value="sim">
                 <label for="sim">Sim</label>
@@ -69,24 +74,26 @@
                 <input type="radio" id="nao" name="servico" value="nao">
                 <label for="nao">Não</label>
               </div>
-            </article>
-            <hr>
-            <article>
-              <p>Como avalia a qualidade de nossos serviços?</p>
-              <div class="slider-container">
-                <input type="range" id="myRange" min="0" max="4" value="2">
-                <div class="slider-labels">
-                  <span>Ruim</span>
-                  <span>Regular</span>
-                  <span>Bom</span>
-                  <span>Ótimo</span>
-                  <span>Excelente</span>
-                </div>
+            </div>
+          </article>
+          <hr>
+          <article>
+            <p>Como avalia a qualidade de nossos serviços?</p>
+            <div class="slider-container">
+              <input type="range" id="myRange" min="0" max="4" value="2">
+              <div class="slider-labels">
+                <span>Ruim</span>
+                <span>Regular</span>
+                <span>Bom</span>
+                <span>Ótimo</span>
+                <span>Excelente</span>
               </div>
-            </article>
-            <hr>
-            <article class="radios">
-              <p>Você recomendaria Patas e Pelos para um amigo?</p>
+            </div>
+          </article>
+          <hr>
+          <article>
+            <p>Você recomendaria Patas e Pelos para um amigo?</p>
+            <div class="radios">
               <div class="radio">
                 <input type="radio" id="sim" name="servico" value="sim">
                 <label for="sim">Sim</label>
@@ -95,19 +102,21 @@
                 <input type="radio" id="nao" name="servico" value="nao">
                 <label for="nao">Não</label>
               </div>
-            </article>
-          </div>
-        </section>
-        <button class="btn" type="submit">Enviar</button>
-      </form>
+            </div>
+          </article>
+        </div>
+      </section>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
     </section>
 
   </main>
 
-    <footer>
-      <p class="bold">Patas e Pelos Pet Shop</p>
-      <p>Rua dos Amores, 123, Centro - HJ, 12345-000, Brasil</p>
-      <p>©Todos os direitos reservados</p>
-    </footer>
-  </body>
+  <footer>
+    <p class="bold">Patas e Pelos Pet Shop</p>
+    <p>Rua dos Amores, 123, Centro - HJ, 12345-000, Brasil</p>
+    <p>©Todos os direitos reservados</p>
+  </footer>
+</body>
+
 </html>
