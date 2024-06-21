@@ -86,13 +86,13 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
   }
   
   .radio {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     margin-top: 10px;
   }
   
@@ -101,6 +101,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 5px;
+  }
+
+  .opiniao {
+    width: 100%;
   }
   
   hr {
@@ -149,6 +153,14 @@ body {
         max-width: 300px;
     }
 
+    .radios {
+      gap: 40px;
+    }
+
+    .radio {
+      gap: 10px;
+    }
+
     footer {
         padding: 16px calc((100% - 768px) / 2);
     }
@@ -160,6 +172,16 @@ body {
         width: 90%;
     }
 
+    main {
+      max-width: 900px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .navbar {
         justify-content: flex-end;
         gap: 1.5rem;
@@ -168,6 +190,16 @@ body {
     section {
         width: 70%;
     }
+
+    
+    .radios {
+      gap: 40px;
+    }
+
+    .radio {
+      gap: 10px;
+    }
+
 
     footer {
         padding: 16px calc((100% - 1280px) / 2);
