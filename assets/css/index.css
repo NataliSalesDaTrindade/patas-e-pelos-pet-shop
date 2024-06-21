@@ -5,15 +5,16 @@ body {
 }
 
 header {
-    padding: 16px;
+    padding: 16px 0px;
+    margin-top: 22px;
 }
 
 .navegacao {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    flex-direction: column;
+    gap: 8px;
+    flex-direction: row;
 }
 
 .banner {
@@ -113,4 +114,14 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 8px
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 16px;
+    }
+
+    .navegacao {
+        gap: 30px;
+    }
 }
