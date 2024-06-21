@@ -39,7 +39,7 @@ a {
 }
 
 .nav-link {
-    background-color: var(--verde-principal);
+    background-image: linear-gradient(180deg, var(--verde-secundario), var(--verde-principal));
     color: white;
     text-transform: uppercase;
     padding: .5rem 1rem;
@@ -48,5 +48,5 @@ a {
 }
 
 .nav-link:hover {
-    background-color: var(--rosa-principal);
+    background: linear-gradient(180deg, var(--rosa-principal), var(--rosa-secundario));
 }
