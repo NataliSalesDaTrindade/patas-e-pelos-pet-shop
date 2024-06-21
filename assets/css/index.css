@@ -6,17 +6,10 @@ body {
 
 .navegacao {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 20px;
-}
-
-@media (min-width: 768px) {
-    .navegacao {
-        flex-direction: row;
-    }
 }
 
 .banner {
